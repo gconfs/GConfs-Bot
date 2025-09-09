@@ -1,0 +1,156 @@
+{
+  "rssFeeds": [
+    "https://blog.mrvym.dev/rss",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+  ],
+  "validationChannelId": "797050474498228224",
+  "publicChannelId": "923965305196249169",
+  "sentPosts": [
+    "https://blog.mrvym.dev/pinsyscall-on-openbsd",
+    "https://blog.mrvym.dev/how-copy-paste-works-on-linux",
+    "https://blog.mrvym.dev/le-plus-petit-segfault",
+    "https://blog.mrvym.dev/tester-cest-tricher-compiler-c-est-douter",
+    "https://blog.mrvym.dev/intro-terraform-proxmox",
+    "https://blog.mrvym.dev/disque-dur-sas-sata-scsi-ide",
+    "https://blog.mrvym.dev/define-inc-a-inc-a+1",
+    "https://blog.mrvym.dev/le-merveilleux-monde-de-make",
+    "https://www.youtube.com/watch?v=E1FNmHOZ7QE",
+    "https://www.youtube.com/watch?v=DLWrax4Coiw",
+    "https://www.youtube.com/watch?v=Pd9rnCwp90c",
+    "https://www.youtube.com/watch?v=dnT4FRYhft4",
+    "https://www.youtube.com/watch?v=cy74MD9ym2Y",
+    "https://www.youtube.com/watch?v=r6VICbqbN8A",
+    "https://www.youtube.com/watch?v=-cT6hs1BBrk",
+    "https://www.youtube.com/watch?v=p8POO2zwCIA",
+    "https://www.youtube.com/watch?v=4ejHOBAXtFg",
+    "https://www.youtube.com/watch?v=A3AWkcErq1g",
+    "https://www.youtube.com/watch?v=BqFMbH6Bkl8",
+    "https://www.youtube.com/watch?v=uitGIuTGLwI",
+    "https://www.youtube.com/watch?v=pfrpeH7OYIs",
+    "https://www.youtube.com/watch?v=kd6NRzFbDAI",
+    "https://www.youtube.com/watch?v=uOXs0zqCsYY"
+  ],
+  "pendingPosts": [
+    {
+      "guid": "https://blog.mrvym.dev/pinsyscall-on-openbsd",
+      "title": "Désactiver les pinsyscalls sur OpenBSD",
+      "link": "https://blog.mrvym.dev/pinsyscall-on-openbsd",
+      "date": "Sat, 03 May 2025 00:00:00 GMT",
+      "url": "https://blog.mrvym.dev/rss"
+    },
+    {
+      "guid": "https://blog.mrvym.dev/how-copy-paste-works-on-linux",
+      "title": "How copy-paste works on Linux ?",
+      "link": "https://blog.mrvym.dev/how-copy-paste-works-on-linux",
+      "date": "Fri, 04 Apr 2025 00:00:00 GMT",
+      "url": "https://blog.mrvym.dev/rss"
+    },
+    {
+      "guid": "https://blog.mrvym.dev/le-plus-petit-segfault",
+      "title": "Le plus petit segfault",
+      "link": "https://blog.mrvym.dev/le-plus-petit-segfault",
+      "date": "Fri, 17 Jan 2025 00:00:00 GMT",
+      "url": "https://blog.mrvym.dev/rss"
+    },
+    {
+      "guid": "https://blog.mrvym.dev/tester-cest-tricher-compiler-c-est-douter",
+      "title": "Tester c'est tricher, compiler c'est douter",
+      "link": "https://blog.mrvym.dev/tester-cest-tricher-compiler-c-est-douter",
+      "date": "Fri, 10 Jan 2025 00:00:00 GMT",
+      "url": "https://blog.mrvym.dev/rss"
+    },
+    {
+      "guid": "https://blog.mrvym.dev/intro-terraform-proxmox",
+      "title": "Introduction à Terraform avec Proxmox",
+      "link": "https://blog.mrvym.dev/intro-terraform-proxmox",
+      "date": "Mon, 02 Dec 2024 00:00:00 GMT",
+      "url": "https://blog.mrvym.dev/rss"
+    },
+    {
+      "guid": "https://blog.mrvym.dev/disque-dur-sas-sata-scsi-ide",
+      "title": "Disque dur : SAS, SATA, SCSI ou IDE ?",
+      "link": "https://blog.mrvym.dev/disque-dur-sas-sata-scsi-ide",
+      "date": "Thu, 07 Nov 2024 00:00:00 GMT",
+      "url": "https://blog.mrvym.dev/rss"
+    },
+    {
+      "guid": "https://blog.mrvym.dev/define-inc-a-inc-a+1",
+      "title": "#define INC(a) INC(a+1)",
+      "link": "https://blog.mrvym.dev/define-inc-a-inc-a+1",
+      "date": "Sat, 17 Aug 2024 00:00:00 GMT",
+      "url": "https://blog.mrvym.dev/rss"
+    },
+    {
+      "title": "Introduction au Reinforcement Learning pour les Mauvais Joueurs   Guillaume 'Vermeille' Sanchez",
+      "link": "https://www.youtube.com/watch?v=dnT4FRYhft4",
+      "date": "2025-03-08T13:55:57.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Stratégie au Poker - EPIT'as",
+      "link": "https://www.youtube.com/watch?v=cy74MD9ym2Y",
+      "date": "2025-02-18T06:50:19.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Introduction au Reinforcement Learning pour les Mauvais Joueurs - Guillaume 'Vermeille' Sanchez",
+      "link": "https://www.youtube.com/watch?v=r6VICbqbN8A",
+      "date": "2025-02-07T09:34:20.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Il est frais mon diapo, il est frais - Vianney \"Mr.VyM\" Marticou",
+      "link": "https://www.youtube.com/watch?v=-cT6hs1BBrk",
+      "date": "2025-01-13T17:07:29.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Ed ou le confloose originel  - Vianney \"Mr.VyM\" Marticou",
+      "link": "https://www.youtube.com/watch?v=p8POO2zwCIA",
+      "date": "2025-01-10T16:47:24.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "#CiscoWrapped - Marjolain Dumont",
+      "link": "https://www.youtube.com/watch?v=4ejHOBAXtFg",
+      "date": "2025-01-06T18:37:39.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Universal One-Wayness of A5/42 in the Bruce-Force Attack Model - Quentin \"Poustouflan\" Rataud",
+      "link": "https://www.youtube.com/watch?v=A3AWkcErq1g",
+      "date": "2024-12-20T09:32:00.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "How to properly use Emacs - Cyril Drexler",
+      "link": "https://www.youtube.com/watch?v=BqFMbH6Bkl8",
+      "date": "2024-12-17T20:33:55.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "When there's no 0 days : how to break in the server (room) - Will Somkhit",
+      "link": "https://www.youtube.com/watch?v=uitGIuTGLwI",
+      "date": "2024-12-16T17:16:30.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "SDF, ou comment savoir si l'on est dehors - Raphael Duhen",
+      "link": "https://www.youtube.com/watch?v=pfrpeH7OYIs",
+      "date": "2024-12-13T18:01:50.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Nuit de l'info 2024 - 5 déc 2024 - GConfs",
+      "link": "https://www.youtube.com/watch?v=kd6NRzFbDAI",
+      "date": "2024-12-06T12:06:53.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Nuit de l'Info 2024 - 5 déc 2024 - GConfs",
+      "link": "https://www.youtube.com/watch?v=uOXs0zqCsYY",
+      "date": "2024-12-06T11:10:28.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    }
+  ]
+}
