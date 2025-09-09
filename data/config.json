@@ -1,0 +1,53 @@
+{
+  "rssFeeds": [
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+  ],
+  "validationChannelId": "797050474498228224",
+  "publicChannelId": "923965305196249169",
+  "sentPosts": [
+    "https://www.youtube.com/watch?v=E1FNmHOZ7QE",
+    "https://www.youtube.com/watch?v=DLWrax4Coiw",
+    "https://www.youtube.com/watch?v=Pd9rnCwp90c",
+    "https://www.youtube.com/watch?v=dnT4FRYhft4",
+    "https://www.youtube.com/watch?v=cy74MD9ym2Y",
+    "https://www.youtube.com/watch?v=r6VICbqbN8A"
+  ],
+  "pendingPosts": [
+    {
+      "title": "Initiation au reverse engineering en environnement nord-coréen - Gélules",
+      "link": "https://www.youtube.com/watch?v=E1FNmHOZ7QE",
+      "date": "2025-05-28T05:54:57.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Supply chain attack en Rust : Backdoors et dépendances - Gustav Berloty",
+      "link": "https://www.youtube.com/watch?v=DLWrax4Coiw",
+      "date": "2025-04-25T07:29:44.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Comment les pentesteurs rentrent dans le bureau de ton PDG ? - Clovis Carlier",
+      "link": "https://www.youtube.com/watch?v=Pd9rnCwp90c",
+      "date": "2025-04-24T06:53:53.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Introduction au Reinforcement Learning pour les Mauvais Joueurs   Guillaume 'Vermeille' Sanchez",
+      "link": "https://www.youtube.com/watch?v=dnT4FRYhft4",
+      "date": "2025-03-08T13:55:57.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Stratégie au Poker - EPIT'as",
+      "link": "https://www.youtube.com/watch?v=cy74MD9ym2Y",
+      "date": "2025-02-18T06:50:19.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    },
+    {
+      "title": "Introduction au Reinforcement Learning pour les Mauvais Joueurs - Guillaume 'Vermeille' Sanchez",
+      "link": "https://www.youtube.com/watch?v=r6VICbqbN8A",
+      "date": "2025-02-07T09:34:20.000Z",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp40wxsX2co5bNb8LXJhk5w"
+    }
+  ]
+}
