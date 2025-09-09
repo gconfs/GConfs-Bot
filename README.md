@@ -28,6 +28,14 @@ npm install
 
 3. Create a Discord bot on the Discord Developer Portal and get your bot token.
 
+4. Update the `.env` file with this template.
+
+``` 
+DISCORD_TOKEN="Never gonna give you up"
+CLIENT_ID=1234567
+GUILD_ID=1234567
+```
+
 ## Usage
 
 - Use the `/addFeed` command to add new RSS feeds to monitor.
