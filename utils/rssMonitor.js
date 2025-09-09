@@ -50,28 +50,24 @@ async function fetchFeeds(client) {
         });
 
         collector.on("collect", async (reaction, user) => {
-          const updatedConfig = JSON.parse(fs.readFileSync(configPath, "utf8"));
-          const index = updatedConfig.pendingPosts.findIndex(p => p.guid === news.guid);
+          const configData = JSON.parse(fs.readFileSync(configPath, "utf8"));
+          const index = configData.pendingPosts.findIndex(p => p.link === news.link);
           if (index === -1) {
             await message.channel.send("Annonce déjà traitée.");
             return;
           }
-
-          const [pending] = updatedConfig.pendingPosts.splice(index, 1);
-
+          const [pending] = configData.pendingPosts.splice(index, 1);
           if (reaction.emoji.name === "✅") {
-            if (updatedConfig.publicChannelId) {
-              const publicChannel = await client.channels.fetch(updatedConfig.publicChannelId);
+            if (configData.publicChannelId) {
+              const publicChannel = await client.channels.fetch(configData.publicChannelId);
               if (publicChannel) {
                 await publicChannel.send({
                   content: `Annonce validée par ${user} :\n**${pending.title}**\n${pending.link}`,
                 });
-              } 
+              }
             }
           }
-
-          fs.writeFileSync(configPath, JSON.stringify(updatedConfig, null, 2));
-
+          fs.writeFileSync(configPath, JSON.stringify(configData, null, 2));
           await message.delete();
           collector.stop();
         });
