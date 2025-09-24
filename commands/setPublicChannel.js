@@ -19,6 +19,6 @@ module.exports = {
     config.publicChannelId = channel.id;
     fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
 
-    return interaction.reply({ content: `Channel public défini sur ${channel}`, ephemeral: true });
+    return interaction.reply({ content: `Channel public défini sur ${channel}`});
   },
 };

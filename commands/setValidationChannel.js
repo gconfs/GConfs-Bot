@@ -19,6 +19,6 @@ module.exports = {
     config.validationChannelId = channel.id;
     fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
 
-    return interaction.reply({ content: `Channel de validation défini sur ${channel}`, ephemeral: true });
+    return interaction.reply({ content: `Channel de validation défini sur ${channel}`});
   },
 };

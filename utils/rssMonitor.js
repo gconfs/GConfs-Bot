@@ -46,7 +46,7 @@ async function fetchFeeds(client) {
         const collector = message.createReactionCollector({
           filter,
           max: 1,
-          time: 5 * 60 * 1000,
+          time: process.env.TIME_REFRESH * 60 * 1000, // 5 min
         });
 
         collector.on("collect", async (reaction, user) => {

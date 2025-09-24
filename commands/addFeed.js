@@ -17,11 +17,11 @@ module.exports = {
     const config = JSON.parse(fs.readFileSync(configPath, "utf8"));
 
     if (config.rssFeeds.includes(url)) {
-      return interaction.reply({ content: "Ce flux RSS est déjà ajouté.", ephemeral: true });
+      return interaction.reply({ content: "Ce flux RSS est déjà ajouté."});
     }
 
     config.rssFeeds.push(url);
     fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
-    return interaction.reply({ content: `Flux RSS ajouté : ${url}`, ephemeral: true });
+    return interaction.reply({ content: `Flux RSS ajouté : ${url}`});
   },
 };
