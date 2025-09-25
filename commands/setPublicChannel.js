@@ -1,4 +1,4 @@
-const { SlashCommandBuilder } = require("discord.js");
+const { SlashCommandBuilder, MessageFlags } = require("discord.js");
 const fs = require("fs");
 const path = require("path");
 const configPath = path.join(__dirname, "..", "data", "config.json");
@@ -13,6 +13,10 @@ module.exports = {
         .setRequired(true)),
 
   async execute(interaction) {
+
+    if (!interaction.member.roles.cache.has(process.env.ALLOWED_ROLE_ID)) {
+      return interaction.reply({ content: "Tu n'as pas la permission d'utiliser cette commande.", flags: MessageFlags.Ephemeral});
+    }
     const channel = interaction.options.getChannel("channel");
     const config = JSON.parse(fs.readFileSync(configPath, "utf8"));
 
